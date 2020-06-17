@@ -1,0 +1,130 @@
+body{
+    background-color: #f7f7f7;
+}
+#search {
+    width           : 100%;
+    background-color: #ffb90f;
+    top: 0;
+    z-index: 9;
+}
+
+#search .search-input {
+    width     : 100%;
+    text-align: center;
+    position: relative;
+}
+
+#search .search-input input {
+    width    : 57.5rem;
+    height   : 2.875rem;
+    margin   : 1.25rem 0;
+    font-size: 1rem;
+    padding  : 0 9.374rem 0 3rem;
+}
+#search .search-input span.icon-sousuo{
+    font-size: 2rem;
+    position: absolute;
+    top: 1.75rem;
+    left: 3rem;
+}
+#search .search-input span.goto{
+    position: absolute;
+    top: 2.1rem;
+    right: 3.6rem;
+    color: #c7900f;
+    transition: .5s;
+    cursor: pointer;
+}
+#search .search-input span.goto:hover{
+    letter-spacing: .1rem;
+    right: 3rem;
+    color: #ffb90f;
+}
+#main{
+    margin-top: 3.125rem;
+    overflow: hidden;
+}
+#main .left{
+    width: 18rem;
+    height: 24.375rem;
+    margin: 2rem 3rem 2rem 0;
+    float: left;
+}
+#main h2{
+    font-size: 22px;
+    font-weight: 400;
+
+}
+#main .left .filter{
+    width: 15rem;
+    padding: 0 1.5rem;
+    background-color: #ffffff;
+}
+#main .left .filter>div+div{
+    border-top: 1px solid #aaaaaa;
+}
+#main .left .filter>div>p{
+    width: 15rem;
+    display: inline-block;
+    padding: 1.5rem 0;
+    position: relative;
+    z-index: 0;
+}
+#main .left .filter>div span{
+    position: absolute;
+    right: 0;
+}
+#main .right{
+    width: 50rem;
+    float: left;
+    margin: 2rem 0 0 0;
+}
+
+#main .right .list>div{
+    width: 45.75rem;
+    height: 8.25rem;
+    padding-top: 3%;
+    padding-left: 3.5%;
+    padding-bottom: 3.5%;
+    padding-right: 5%;
+    background-color: #ffffff;
+    transition: .5s ease-out;
+}
+
+#main .right .list>div:hover{
+    margin-top: -.25rem;
+    box-shadow: 0px 3px 8px 0 #cccccc;
+}
+
+#main .right h4{
+    font-size: 1.375rem;
+    line-height: 2rem;
+    color: #323232;
+    margin: 0;
+}
+
+#main .right .list p:nth-of-type(1){
+    font-size: 1rem;
+    margin: .375rem 0 1.375rem;
+    line-height: 1.375rem;
+    color: #323232;
+}
+
+#main .right .list p:nth-of-type(2){
+    color: #aaaaaa;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    width: 35rem;
+    height: 3rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+#footer{
+    background-color: #ffffff;
+    padding-top: 2rem;
+}
